@@ -1,0 +1,131 @@
+body{
+  background-color:  	#999966;
+  font-family: Yantramanav;
+}
+/*navigation*/
+.nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background-color: #333300;
+  text-align: center;
+  z-index: 1000px;
+  }
+
+.nav a{
+  font-family:Yantramanav;
+  font-size:1.6rem;
+  font-weight:700;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform:uppercase;
+  color:#cccc99;
+  padding:20px;
+  z-index: 10000;
+  }
+/*end navigation*/
+/*main section*/
+.item {
+  padding: 100px;
+  background-color: green;
+  margin-top: 10px;
+  padding-right:-300px;
+  margin-right:500px;
+  width:100%;
+  background: url(https://images.unsplash.com/photo-1484665739383-a1069a82d4be);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  color: #ffffff;
+  font-size:30px;
+}
+.text-main{
+  text-align:left;
+  font-size: 60px;
+  color: #4F4F2f;
+ }
+
+/*link contact*/
+.btn-social {
+	font-size: 20px;
+  background-color: #cccc99;
+  margin-top:10px;
+}
+.social a {
+	color: #4F4F2f;
+	text-decoration: none;
+	transition: all 0.3s;
+  font-family:Poppins;
+}
+/*end link contact*/
+.img-border {
+    border-color: #333300;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  box-shadow: 0px 10px 20px rgba(33, 33, 0, 0.7);
+  }
+
+h1{
+  font-size:30px;
+}
+h3{
+  font-size:32px;
+}
+.story{
+  color: #333300;
+  font-size:18px;
+  margin:60px 100px 20px 100px;
+  padding:10px 0px 10px 100px;
+  
+}
+p1{
+  justify-content: space-between;
+}
+.small-image{
+  width:220px;
+}
+/*contact*/
+.contacttable{
+  margin: 0 auto;
+  background:#333300;
+   padding:40px 45px 10px 40px;
+   font-size: 20px;
+  color:#cccc99;
+   text-align: center;
+}
+
+.send{
+  font-size: 14px;
+  
+  padding:10px 45px;
+  text-transform: uppercase;
+  background-color: #333300;
+  color: #cccc99;
+  font-family: Yantramanav, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding:10px 40px 10px 40px;
+  margin:20px;
+}
+.box{
+  background-color:#cccc99;
+}
+.boxarea{
+  background-color:#cccc99;
+}
+
+/*end contact*/
+
+footer{
+    color:#4F4F2f;
+    font-family: Yantramanav, sans-serif;
+    font-size: 1.5 rem;
+    text-align: center;
+    background: #cccc99;
+     
+  
+  
+}
