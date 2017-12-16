@@ -1,57 +1,165 @@
 *{
 	padding:0;
 	margin:0;
+    font-family: 'Lato', sans-serif;
 	box-sizing:border-box;
 }
 html{
 	font-size:10px;
 }
 body{
-  background-color: #999966;
+  background-color: #4F4F2f;;
   
 }
+#wrapper{
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+    background-color: #999966;
+}
+
+nav{
+    padding-top:0;
+    background-color: #333300;
+    position:relative;
+    z-index: 5;
+
+	
+}
+nav a{
+    display: inline-block;
+    width:30%;
+    padding:10px 10px 10px 10px;
+    font-size: 1.6rem;
+    text-decoration:none;
+	  text-transform:uppercase;
+    color:#cccc99;
+    text-align: center;
+    
+}
+nav a:hover {
+  background-color: #4F4F2f;
+    font-size: 1,8rem;
+    font-weight: 900;
+}
+header img{
+    width:100%;
+    
+}
+
 header{
-	padding: 100px;
-	background: url(https://images.unsplash.com/photo-1484665739383-a1069a82d4be);
-	 margin-top: 5%;
-	 background-position:center;
-	    padding-right:-300px;
-  margin-right:500px; 
-		width:100%;
-		 
+	height:75vh;
+	padding: 0px;
+	background-position:center;
+    width:100%;
+    position: relative;
+    z-index: 3;
+}
+header img{
+    position: absolute;
+    bottom:0px;
+}
+hgroup{
+    position: relative;
+    z-index: 2;
 }
 h1{
-	font-family:Noto Sans;
-  font-size:36px;
+	
+    font-family:Noto Sans;
+  font-size:1,6rem;
   text-transform:uppercase;
   text-align:right;
 }
 h2{
-	font-family:Noto Sans;
-  font-size:28px;
-  text-transform:uppercase;
-  text-align:right;
+    font-family:Noto Sans;
+    font-size:1,4rem;
+    text-transform:uppercase;
+    text-align:right;
+   
+}
+h3{
+    color: #333322;
+    font-size: 1.8rem;
+    text-align: center;
+    margin:10px 40% 20px 40%;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #333300;
+}
+.story{
+  color: #333300;
+  font-size:18px;
+  
+  padding:5% 0px 5% 10%;
+}
+#arrow{
+	  width:30px;
+	  height:30px;
+	  border:5x,solid black;
+	  position:absolute;
+    z-index: 2;
+	  bottom:10%;
+	  left:50%;
+	  transform:translateX(-5%);
+	  border-radius:50%;
+    font-size:6rem;
 }
 .btn-social {
 	font-size: 20px;
 	background-color: #cccc99;
-	margin-top:10px;
+	margin-top:0px;
+	text-align:center;
+    
 }
 .social a {
 	color: #4F4F2f;
 	text-decoration: none;
 	transition: all 0.3s;
   font-family:Poppins;
+    width:10%;
+}
+.img-border {
+    border-color: #333300;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+	box-shadow: 0px 10px 20px rgba(33, 33, 0, 0.7);
+  }
+
+p1{
+text-align:justify;
+  justify-content: space-between;
 }
 
+.contacttab{
+ 
+  background:#333300;
+  
+  color:#cccc99;
+     border-bottom: 3px solid #cccc99;
+}
+footer{
+    color:#4F4F2f;
+    font-family: Yantramanav, sans-serif;
+    font-size: 1.5 rem;
+    text-align: center;
+    background: #cccc99;
+    
+    @media(orientation:portrait){
+		 h2 span::after{
+			 content:'\A';
+			 white-space:pre;
+		 }
+        @media(orientation:landsape){
+            
+        }
+/*
 nav{
-	margin-top:-120px;
-	margin-left:-100px;
+	
 	padding-top:0;
 	 background-color: #333300;
 	 width:100%;
 	 position:fixed;
- z-index: 1000px;
+	z-index: 1000px;
 	 text-align:center;
 	 display: inline-block;
 	
@@ -60,42 +168,21 @@ nav a{
 	  text-decoration:none;
 	  text-transform:uppercase;
 	  color:#cccc99;
-	  font-size:1.6rem;
+	  font-size:1.8rem;
+	  display: inline-block;
+    
+	  z-index: 10000px;
 	  
 	  
 	  
   }
   
-  #arrow{
-	  width:96px;
-	  height:96px;
-	  border:5x,solid black;
-	  position:absolute;
-	  bottom:10%;
-	  left:50%;
-	  transform:translateX(-5%);
-	  border-radius:50%;
-	  font-size:6rem;
 	  
   }
-  .img-border {
-    border-color: #333300;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 50%;
-	box-shadow: 0px 10px 20px rgba(33, 33, 0, 0.7);
-  }
+  
 
 
-.story{
-  color: #333300;
-  font-size:18px;
-  margin:60px 100px 20px 100px;
-  padding:5% 0px 5% 10%;
-}
-p1{
-  justify-content: space-between;
-}
+
 .small-image{
   width:220px;
 }
@@ -131,13 +218,11 @@ p1{
 
 
 
-footer{
-    color:#4F4F2f;
-    font-family: Yantramanav, sans-serif;
-    font-size: 1.5 rem;
-    text-align: center;
-    background: #cccc99;
+
      
+	 
+	 
+	 }
   
 /*header {
  font-family: Yantramanav;
